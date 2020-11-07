@@ -4,7 +4,8 @@ LENGTH = Annotated[int, 'Length of object']  # Alias to annotation
 
 
 def rect_area(length: Annotated[int, 'Length of rectangle'],
-              breadth: Annotated[int, 'Breadth of rectangle']) -> Annotated[int, 'Area of rectangle']:
+              breadth: Annotated[int, 'Breadth of rectangle']) \
+              -> Annotated[int, 'Area of rectangle']:
     return length * breadth
 
 

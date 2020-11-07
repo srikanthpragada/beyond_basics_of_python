@@ -6,4 +6,6 @@ def iseven(n):
         return False
 
 
-assert iseven(11), 'Should return True but returns False'
+assert iseven(10), 'Should return True but returns False'
+assert iseven(11) == False, 'Should return False but returns True'
+

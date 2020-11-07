@@ -9,3 +9,6 @@ print(t1.hours)
 
 t2 = Time(minutes=10, seconds=30)
 print(t2)
+t = (1, 2, 3)
+t3 = Time(*t)
+print(t3)
